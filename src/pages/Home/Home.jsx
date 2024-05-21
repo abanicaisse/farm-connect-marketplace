@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FeaturedProducts, Navbar } from "../../Components";
+import {
+  AboutUs,
+  FeaturedProducts,
+  Footer,
+  Navbar,
+  Partners,
+} from "../../Components";
 
 import "./home.css";
 
@@ -20,12 +26,20 @@ const Home = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <Link to={"/products"}>Our Products</Link>
+            <Link className="button" to={"/products"}>
+              Our Products
+            </Link>
           </div>
         </div>
       </div>
 
       <FeaturedProducts />
+
+      <AboutUs />
+
+      <Partners />
+
+      <Footer />
     </div>
   );
 };

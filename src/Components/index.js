@@ -5,3 +5,5 @@ export { default as Review } from "./Review/Review";
 export { default as AboutUs } from "./AboutUs/AboutUs";
 export { default as Cart } from "./Cart/Cart";
 export { default as FeaturedProducts } from "./FeaturedProducts/FeaturedProducts";
+export { default as Slider } from "./Slider/Slider";
+export { default as Partners } from "./Partners/Partners";

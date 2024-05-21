@@ -44,10 +44,7 @@
 .home__hero--text > a {
   color: var(--color-green);
   background: var(--color-white);
-  text-decoration: none;
   display: inline-block;
-  padding: 16px 32px;
-  border-radius: 8px;
 }
 
 @media screen and (max-width: 1439px) {

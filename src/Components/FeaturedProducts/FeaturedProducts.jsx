@@ -16,7 +16,7 @@ const FeaturedProducts = () => {
         {featuredProducts.map((product, index) => {
           return (
             <Product
-              id={index}
+              key={index}
               img={product.img}
               productName={product.name}
               price={product.price}
@@ -24,7 +24,9 @@ const FeaturedProducts = () => {
           );
         })}
       </div>
-      <Link to={"/products"}>View All Products</Link>
+      <Link className="button" to={"/products"}>
+        View All Products
+      </Link>
     </div>
   );
 };
