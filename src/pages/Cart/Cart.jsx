@@ -1,21 +1,21 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import { Navbar, Footer } from "../../Components";
 
-import "./checkout.css";
+import "./cart.css";
 
-const Checkout = ({ cartItems, setCartItems }) => {
+const Cart = ({ cartItems, setCartItems }) => {
   return (
     <>
       <Navbar cartItems={cartItems} setCartItems={setCartItems} />
 
-      <div className="checkout">
-        <h1>Checkout page</h1>
-      </div>
+      <h1>Full Cart Page</h1>
 
       <Footer />
     </>
   );
 };
 
-export default Checkout;
+export default Cart;

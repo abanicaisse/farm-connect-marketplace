@@ -9,7 +9,7 @@ import "./partners.css";
 
 const Partners = () => {
   return (
-    <div className="partners">
+    <div className="partners" id="partners">
       <h1>Our Partners</h1>
       <div className="partners__container">
         <div>

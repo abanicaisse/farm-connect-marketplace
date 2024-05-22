@@ -1,9 +1,28 @@
-import React from "react";
+import { React, useEffect } from "react";
+
+import { products } from "../../data/products";
 
 import "./product.css";
 
-const Product = ({ img, price, productName }) => {
-  // const image = "../../../src/assets/products/fresh-eggs.png";
+const Product = ({
+  img,
+  price,
+  productName,
+  productIndex,
+  productList,
+  cartItems,
+  setCartItems,
+}) => {
+  const addProductToCart = () => {
+    if (cartItems.includes(productList[productIndex])) {
+      return;
+    } else {
+      // cartItems.push(productList[productIndex]);
+      setCartItems((cartItems) => [...cartItems, productList[productIndex]]);
+    }
+
+    console.log(cartItems);
+  };
 
   return (
     <div className="product">
@@ -13,7 +32,9 @@ const Product = ({ img, price, productName }) => {
           <p className="price">Ugx {price}</p>
           <p>{productName}</p>
         </div>
-        <img src="../../../src/assets/icons/plus-icon.svg" alt="add" />
+        <div className="s-btn add-to-cart" onClick={addProductToCart}>
+          <img src="../../../src/assets/icons/plus-icon.svg" alt="add" />
+        </div>
       </div>
     </div>
   );

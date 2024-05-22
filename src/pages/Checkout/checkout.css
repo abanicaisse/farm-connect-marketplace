@@ -1,0 +1,12 @@
+.checkout {
+  width: 100%;
+  max-width: 1440px;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+  padding: 4rem 7.5rem;
+  margin: auto;
+}

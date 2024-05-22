@@ -1,3 +1,7 @@
+.home {
+  position: relative;
+}
+
 .home__hero-container {
   background: linear-gradient(
     to right,

@@ -25,7 +25,7 @@ export const products = [
   },
   {
     name: "7Up Mojito",
-    img: "../../../src/assets/products/.png",
+    img: "../../../src/assets/products/7up-mojito.png",
     price: 5000,
     brand: "7Up",
     category: "Drinks",
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     name: "Asya Cocktail",
-    img: "../../../src/assets/products/asya-coktail.png",
+    img: "../../../src/assets/products/asya-cocktail.png",
     price: 12000,
     brand: "Asya",
     category: "Drinks",

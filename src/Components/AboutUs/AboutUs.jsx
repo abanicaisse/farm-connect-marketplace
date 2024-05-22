@@ -6,7 +6,7 @@ import "./about-us.css";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us" id="about-us">
       <div className="about-us__container">
         <div className="about-us__container--detail">
           <h1>Who We are</h1>
@@ -17,7 +17,7 @@ const AboutUs = () => {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.
           </p>
-          <a className="button" href="#">
+          <a className="button" href="">
             Read More
           </a>
         </div>

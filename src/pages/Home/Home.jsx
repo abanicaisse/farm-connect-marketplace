@@ -1,8 +1,9 @@
-import React from "react";
+import { React, useState } from "react";
 import { Link } from "react-router-dom";
 
 import {
   AboutUs,
+  QuickCart,
   FeaturedProducts,
   Footer,
   Navbar,
@@ -11,10 +12,10 @@ import {
 
 import "./home.css";
 
-const Home = () => {
+const Home = ({ cartItems, setCartItems }) => {
   return (
     <div className="home">
-      <Navbar />
+      <Navbar cartItems={cartItems} setCartItems={setCartItems} />
 
       <div className="home__hero-container">
         <div className="home__hero">
@@ -33,7 +34,7 @@ const Home = () => {
         </div>
       </div>
 
-      <FeaturedProducts />
+      <FeaturedProducts cartItems={cartItems} setCartItems={setCartItems} />
 
       <AboutUs />
 
