@@ -5,7 +5,7 @@ export const products = [
     price: 10000,
     brand: "Arya",
     category: "Eggs",
-    featured: true,
+    featured: false,
   },
   {
     name: "7Up Cherry",
@@ -13,7 +13,7 @@ export const products = [
     price: 5000,
     brand: "7Up",
     category: "Drinks",
-    featured: true,
+    featured: false,
   },
   {
     name: "7Up Cocktail Exotique",
@@ -45,7 +45,7 @@ export const products = [
     price: 28000,
     brand: "Congo",
     category: "Other",
-    featured: true,
+    featured: false,
   },
   {
     name: "Arya Halloumi",
@@ -53,7 +53,7 @@ export const products = [
     price: 8000,
     brand: "Arya",
     category: "Other",
-    featured: true,
+    featured: false,
   },
   {
     name: "Arya Aycekiresgi",
@@ -61,7 +61,7 @@ export const products = [
     price: 8000,
     brand: "Arya",
     category: "Other",
-    featured: true,
+    featured: false,
   },
   {
     name: "Asya Banana",
@@ -77,7 +77,7 @@ export const products = [
     price: 12000,
     brand: "Asya",
     category: "Drinks",
-    featured: false,
+    featured: true,
   },
   {
     name: "Asya Lychee",
@@ -133,7 +133,7 @@ export const products = [
     price: 8000,
     brand: "Asya",
     category: "Fruits",
-    featured: false,
+    featured: true,
   },
   {
     name: "Asya Vanilla",
@@ -157,7 +157,7 @@ export const products = [
     price: 15000,
     brand: "Congo",
     category: "Eggs",
-    featured: false,
+    featured: true,
   },
   {
     name: "BJ 6 Slices",
@@ -165,7 +165,7 @@ export const products = [
     price: 25000,
     brand: "Arya",
     category: "Rices",
-    featured: false,
+    featured: true,
   },
   {
     name: "BJ Cheddar",
@@ -181,7 +181,7 @@ export const products = [
     price: 25000,
     brand: "Arya",
     category: "Rices",
-    featured: false,
+    featured: true,
   },
   {
     name: "Boost Cherry",
@@ -189,7 +189,7 @@ export const products = [
     price: 15000,
     brand: "Walmart",
     category: "Drinks",
-    featured: false,
+    featured: true,
   },
   {
     name: "Boost Citrus",
@@ -213,7 +213,7 @@ export const products = [
     price: 15000,
     brand: "Arya",
     category: "Drinks",
-    featured: false,
+    featured: true,
   },
   {
     name: "Boost Mango",

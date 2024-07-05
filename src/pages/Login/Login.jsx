@@ -27,11 +27,13 @@ const Login = ({ cartItems, setCartItems }) => {
             placeholder="Enter your password"
           />
 
-          <div className="orange-btn">Login</div>
+          <button type="submit" className="orange-btn">
+            Login
+          </button>
 
-          <div className="white-btn">
-            <Link to={"/register"}>Don't have an account? (Register) </Link>
-          </div>
+          <button className="white-btn">
+            <Link to={"/register"}>Don't have n account? (Register) </Link>
+          </button>
         </form>
       </div>
 
